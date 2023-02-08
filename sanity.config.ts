@@ -20,7 +20,7 @@ import settings from 'schemas/singletons/settings'
 
 const title =
   process.env.NEXT_PUBLIC_SANITY_PROJECT_TITLE ||
-  'Next.js Personal Website with Sanity.io'
+  'Gravelp.it Studio'
 
 export const PREVIEWABLE_DOCUMENT_TYPES: string[] = [
   home.name,
@@ -40,10 +40,10 @@ export default defineConfig({
       home,
       settings,
       // Documents
-      duration,
       page,
       project,
       // Objects
+      duration,
       milestone,
       timeline,
     ],
